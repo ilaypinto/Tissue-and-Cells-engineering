@@ -10,6 +10,6 @@ C1 = morphogenes_wrapper(D,k,Vmax,borders,bord_cond);
 %% Solution for Q6
 C2 = morphogenes_wrapper(D,k,Vmax,borders,bord_cond,true);
 %% Solution for Q7
-AP1=[0.015,0.02];AP2=[0.03,0.06];AP3=[0.04,0.07];
+AP1=[0.015,0.2];AP2=[0.3,0.35];AP3=[0.4,0.5];
 AP_cell={AP1,AP2,AP3};
 Bicoid=bicoid_in_range(C2, AP_cell);
